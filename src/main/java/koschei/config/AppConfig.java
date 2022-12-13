@@ -16,8 +16,16 @@ public class AppConfig {
     public static Island2 getIsland(Wood3 wood) {
         return new Island2(wood);
     }
+<<<<<<< Updated upstream
      @Bean
     public static Duck5 get (Egg6 egg6) {
         return new Duck5(egg6);
      }
+=======
+    @Bean
+    public static Egg6 get (Needle7 needle) { return new Egg6(needle);}
+
+    @Bean
+    public static Deth8 getDeath8() {return new Deth8();}
+>>>>>>> Stashed changes
 }
